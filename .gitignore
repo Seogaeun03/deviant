@@ -1,0 +1,66 @@
+# Unity regenerates these directories on each machine.
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/.vs/
+**/.idea/
+**/.vscode/
+**/node_modules/
+**/__pycache__/
+**/_tools/
+*.csproj
+!tools/combat/roguelite-tests/RunChecks.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.log
+*.tmp
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+/outputs/
+/.wrangler/
+/local-verification/
+**/Assets/Resources/PerformanceTestRunInfo.json*
+**/Assets/Resources/PerformanceTestRunSettings.json*
+
+# Portfolio snapshot: game media (images, audio, fonts) is committed directly here,
+# instead of being restored from the team's separate resources repository.
+
+# Project-specific feedback bindings are generated from the retained vendor assets.
+/unity/Assets/Deviant/Presentation/Resources/HitFeedback/Generated/
+/unity/Assets/Deviant/Presentation/Resources/HitFeedback/Generated.meta
+
+# Temporary source-clip relocation during player packaging.
+/unity/Assets/Deviant/Media/ExcludedAudioBuild/
+/unity/Assets/Deviant/Media/ExcludedAudioBuild.meta
+
+# Public source hygiene
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+__pycache__/
+*.pyc
+node_modules/
+dist/
+Library/
+Temp/
+Logs/
+UserSettings/
